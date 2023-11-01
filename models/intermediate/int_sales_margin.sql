@@ -3,6 +3,6 @@ SELECT*
 ,(revenue - SAFE_CAST(purchase_price as FLOAT64)) AS margin
 FROM
 {{ref("stg_raw__product")}}
-JOIN
+LEFT JOIN
 {{ref('stg_raw__sales')}}
 USING(products_id)
