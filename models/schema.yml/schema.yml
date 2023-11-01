@@ -55,3 +55,16 @@ sources:
             description: the cost of logistic
           - name: ship_cost
             description: the cost of the ship
+      - name: ads
+        identifier: raw_gz_adwords
+        description: ads of greenweeze
+      - name: bing
+        identifier: raw_gz_bing
+        description: bing of greenweeze
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: criteo at greenweeze's
+      - name: fb
+        identifier: raw_gz_facebook
+        description: facebook at greenweeze's
+
