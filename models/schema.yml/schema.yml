@@ -58,6 +58,9 @@ sources:
       - name: ads
         identifier: raw_gz_adwords
         description: ads of greenweeze
+        test:
+          - unique
+              column_name:"(date_date||'-'||campaign_key)"
       - name: bing
         identifier: raw_gz_bing
         description: bing of greenweeze
